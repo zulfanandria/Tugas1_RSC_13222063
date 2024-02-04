@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/zulfan/Documents/Aksantara/Pendidikan/T1-T2/Individu/2/Item.cpp
+Item.hpp
+/home/zulfan/Documents/Aksantara/Pendidikan/T1-T2/Individu/2/Item.hpp
+iostream
+-
+
+/home/zulfan/Documents/Aksantara/Pendidikan/T1-T2/Individu/2/Item.hpp
+

@@ -1,0 +1,28 @@
+Firmware Arduino
+TDFC
+
+Arduino
+
+
+https://docs.google.com/forms/d/e/1FAIpQLSc9Efp2r0xJvfLJJkIB41njKorVcKlZHxoi1eFXuW7lroA01Q/viewform
+
+contoh barang kebutuhan:
+https://docs.google.com/spreadsheets/d/1P0BUjWxcM50ybLHGaipGAxmtQLjqg7nqNglznWEVNJc/edit#gid=
+
+Link GitHub pengumpulan tugas:
+https://docs.google.com/spreadsheets/d/1jrgfTY_8_gMddCGl3xpC9GYwcrIUE1Q2CvMLM-ktt24/edit#gid=0
+
+Apa arduino
+
+Arduino merupakan sebuah development board dan software (Arduino IDE). Arduino hardware sendiri memiliki berbagai macam tipe dari Arduino Uno, arduino mega, dan lainnya yang memiliki fungsi untuk mengeksekusi program yang dikrim dari arduino IDE dengan sifat open source, isi boardnya sendiri memiliki mikrokontroller ATMega, lalu boardnya memiliki pin digital dan analog. Kemudian mengenai Arduino IDE yang merupakan sebuah software untuk menuliskan program C/C++
+
+STM32 
+
+STM32 adalah sebuah mikrokontroler yang memiliki berbagai macam tipe dengan kapasitas kemampuan yang berbeda beda, namun dibandingkan arduino, STM32 ukurannya lebih kecil, memiliki pin lebih banyak, lebih banyak kostumisasi, dan juga kemampuannya yang lebih kuat. Namun, STM32 tidak memiliki dokumentasi yang sebanyak arduino dan cara debugnya lebih sulit
+
+Saya mendapatkan bahwa STM32 memiliki library yang dapat membuatnya menjadi seperti arduino sehingga penggunannya lebih mudah dengan dokumentasi yang lebih banyak juga karena adanya bantuan dari arduino library
+
+Siang Semua,
+Ini ada notulensi meet tadi buat pendidikan F-01 berisi PPT, rekaman, detail tugas
+
+https://docs.google.com/document/d/1Ff37_x9c_wQsHcAdLDiW7xhjmcil-yOttpoZn3y-HhE/edit#heading=h.ow1e12m4605s

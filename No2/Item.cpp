@@ -54,9 +54,7 @@ void Item::setPrice(int newPrice) {
     }
 }
 
-
-int main() {
-
+int main() { 
     int stokAwal;
     int harga; 
 
@@ -69,14 +67,14 @@ int main() {
     Item item2;          // Stok dan harga default (0)
 
     // Menampilkan informasi awal
-    std::cout << "Item 1 - Serial Number: " << item1.getSerialNum() << ", Stock: " << item1.getSold() << ", Price: " << item1.getPrice() << std::endl;
-    std::cout << "Item 2 - Serial Number: " << item2.getSerialNum() << ", Stock: " << item2.getSold() << ", Price: " << item2.getPrice() << std::endl;
+    std::cout << "Item 1 - Serial Number: " << item1.getSerialNum() << ", Jumlah Stock: " << item1.getSold() << ", Price: " << item1.getPrice() << std::endl;
+    std::cout << "Item 2 - Serial Number: " << item2.getSerialNum() << ", Jumlah Stock: " << item2.getSold() << ", Price: " << item2.getPrice() << std::endl;
 
-    // Menambah stok dan menjual item
     int stokTambah;
     int jualItem1;
     int jualItem2;
 
+    // Menambah stok dan menjual item
     std::cout << "\nLalu stok ditambah dan item dijual" << std::endl;
     std::cout << "Jumlah stok yang ditambah : ";
     std::cin >> stokTambah;
@@ -90,11 +88,11 @@ int main() {
     item2.sell(jualItem2);
 
     // Menampilkan informasi setelah modifikasi
-    std::cout << "Item 1 - Serial Number: " << item1.getSerialNum() << ", Stock: " << item1.getSold() << ", Price: " << item1.getPrice() << std::endl;
-    std::cout << "Item 2 - Serial Number: " << item2.getSerialNum() << ", Stock: " << item2.getSold() << ", Price: " << item2.getPrice() << std::endl;
+    std::cout << "Item 1 - Serial Number: " << item1.getSerialNum() << ", Jumlah Stock: " << item1.getSold() << ", Price: " << item1.getPrice() << std::endl;
+    std::cout << "Item 2 - Serial Number: " << item2.getSerialNum() << ", Jumlah Stock: " << item2.getSold() << ", Price: " << item2.getPrice() << std::endl;
 
     // Menampilkan total revenue dan total items
-    std::cout << "Total Revenue: " << Item::totalRevenue << std::endl;
+    std::cout << "\nTotal Revenue: " << Item::totalRevenue << std::endl;
     std::cout << "Total Items: " << Item::totalItems << std::endl;
 
     return 0;
